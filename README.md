@@ -27,12 +27,17 @@
 
 7. В подключенном MySQL репозитории создать базу данных “Друзья
 человека”
+[![Copy to Clipboard](https://img.shields.io/badge/Copy-Copy_to_Clipboard-blue.svg)](https://clipboardjs.com/)
+
 
 
        CREATE DATABASE Human_friends; 
 
 
  8.  Создать таблицы с иерархией из диаграммы в БД
+
+ [![Copy to Clipboard](https://img.shields.io/badge/Copy-Copy_to_Clipboard-blue.svg)](https://clipboardjs.com/)
+
 
    USE Human_friends;
 
@@ -92,7 +97,10 @@
     Foreign KEY (Genus_id) REFERENCES home_animals (Id) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
-9. Заполнить низкоуровневые таблицы именами(животных), командами которые они выполняют и датами рождения
+9. Заполнить низкоуровневые таблицы именами(животных), командами которые они выполняют и датами рождения  
+
+[![Copy to Clipboard](https://img.shields.io/badge/Copy-Copy_to_Clipboard-blue.svg)](https://clipboardjs.com/)
+
 
        INSERT INTO cats (Name, Birthday, Commands, Genus_id)
        VALUES ('Пупа', '2011-01-01', 'кс-кс-кс', 1),
