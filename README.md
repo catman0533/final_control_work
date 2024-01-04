@@ -56,6 +56,7 @@ CREATE TABLE packed_animals
     Genus_name VARCHAR (20),
     Class_id INT,
     FOREIGN KEY (Class_id) REFERENCES animal_classes (Id) ON DELETE CASCADE ON UPDATE CASCADE
+
 );
 
 INSERT INTO packed_animals (Genus_name, Class_id)
@@ -86,7 +87,8 @@ CREATE TABLE cats
     Commands VARCHAR(50),
     Genus_id int,
     Foreign KEY (Genus_id) REFERENCES home_animals (Id) ON DELETE CASCADE ON UPDATE CASCADE
-);
+    
+);    
 
 
 
