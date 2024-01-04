@@ -29,9 +29,9 @@
 человека”
 
 
- // CREATE DATABASE Human_friends;
+ ''' CREATE DATABASE Human_friends; '''
 
-\
+
 
  
 
