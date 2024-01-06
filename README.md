@@ -235,6 +235,8 @@ LEFT JOIN yang_animal ya ON ya.Name = hm.Name
 LEFT JOIN home_animals ha ON ha.Id = hm.Genus_id;
 
 ``````
+13. Написать программу, имитирующую работу реестра домашних животных. В программе должен быть
+
 
 
 
